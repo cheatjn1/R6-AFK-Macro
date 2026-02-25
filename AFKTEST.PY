@@ -136,10 +136,6 @@ def on_close():
     running = False
     root.destroy()
 
-# ────────────────────────────────────────────────
-#               GUI - DARK MODE
-# ────────────────────────────────────────────────
-
 root = tk.Tk()
 root.title("0MNI.B0T")
 root.geometry("360x300")
@@ -185,4 +181,5 @@ close_btn = tk.Button(root, text="× CLOSE", font=("Arial", 10),
 close_btn.pack(pady=10)
 
 root.protocol("WM_DELETE_WINDOW", on_close)
+
 root.mainloop()
